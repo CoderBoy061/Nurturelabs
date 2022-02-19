@@ -1,0 +1,104 @@
+@media screen and (min-width: 900px) {
+  table {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+  }
+  thead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #191b20;
+    padding: 0.1vh 3vw;
+    border-radius: 8px;
+    position: relative;
+  }
+  th {
+    color: #808191;
+    background: #191b20;
+  }
+  tbody {
+    overflow-y: scroll;
+    text-align: center;
+    margin-top: 0.5vh;
+    height: 62.29px;
+  }
+  table,
+  th,
+  td {
+    border-collapse: collapse;
+  }
+  tr {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 2vh 0.1vw;
+    background: #191b20;
+    border-radius: 8px;
+    margin-bottom: 5px;
+  }
+
+  .btc-bitcoin {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 2.5vw;
+    background: #191b20;
+  }
+  .assest-data > p {
+    color: #808191;
+    font-size: 12px;
+    background: #191b20;
+  }
+  .btc-img {
+    width: 27.45px;
+    height: 27px;
+    position: absolute;
+    margin-top: 1vh;
+    background: #191b20;
+  }
+  .first-table-div {
+    display: flex;
+    background: #191b20;
+  }
+  .put-table-data {
+    display: flex;
+    align-items: center;
+    margin-left: 2.5vw;
+    gap: 0.3vw;
+    background: #191b20;
+  }
+  .put-table-data > p {
+    color: #808191;
+    font-size: 11px;
+    background: #191b20;
+  }
+  .td-upperpara {
+    color: white;
+    font-size: 14px;
+    background: #191b20;
+  }
+  .td-lowerpara {
+    font-size: 11px;
+    color: #808191;
+    background: #191b20;
+  }
+  td:nth-child(1) {
+    margin-left: -2vw;
+  }
+  td:nth-child(2) {
+    margin-left: -3.5vw;
+  }
+  td:nth-child(3) {
+    margin-left: -1vw;
+  }
+  .chain-img {
+    background: #191b20;
+  }
+  .assest-data {
+    background: #191b20;
+    position: relative;
+  }
+}

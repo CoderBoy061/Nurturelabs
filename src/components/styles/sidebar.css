@@ -1,0 +1,76 @@
+@media screen and (min-width: 900px){
+    .main-side-bar{
+        width: 16vw;
+        height: 100%;
+        padding: 0.5em 0.7em;
+        border-right: 2.5px solid #242731;
+    }
+    .sidebar-heading p:first-child{
+        color: white;
+        background: #3772FF;
+        border-radius: 50%;
+        text-align: center;
+        padding: 0.2em 0.6em;
+    }
+    .sidebar-heading-name{
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        margin-left: 8px;
+    }
+    .sidebar-heading{
+        display: flex;
+        align-items: center;
+        margin-top: 2vh;
+    }
+    .sidebar-heading>img{
+        margin-left: 6vw;
+    }
+    .sidebar-links-section{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 3vh;
+        gap: 3vh;
+    }
+    .sidebar-links-section>img{
+        height: 28px;
+        transition: 0.3s all;
+    }
+    .sidebar-links-section>img:hover{
+        background: #353945;
+        width: 15vw;
+        padding: 0.4vh 0.4vw;
+        border-radius: 10px;
+    }
+    .nbt-btn{
+        height: 26px;
+        background-color: #353945;
+        padding: 0.3em 0.5em;
+        border-radius: 10px;
+        width: 80px;
+        margin-top: -6px;
+    }
+    .sidebar-end-btn{
+        display: flex;
+        align-items: center;
+        margin-top: 18vh;
+        gap: 0.5vw;
+    }
+    .sidebar-utility{
+        display: flex;
+        align-items: center;
+        gap: 0.3vw;
+        margin-top: 0.8vh;
+    }
+    .utlity-img{
+        margin-top: 5px;
+    }
+    .sidebar-end-btn>img:hover{
+        opacity: 0.8;
+    }
+    .sidebar-utility>img:hover{
+        opacity: 0.8;
+    }
+    
+}

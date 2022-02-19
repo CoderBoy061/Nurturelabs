@@ -1,0 +1,63 @@
+@media screen and (min-width: 900px) {
+  .freecard-main-section {
+    background: #191b20;
+    width: 345px;
+    height: 150.95px;
+    padding: 1vh 1vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 11px;
+    margin-top: 2vh;
+    margin-left: 2vw;
+  }
+  .freecard-heading {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    background: #191b20;
+    position: absolute;
+    gap: 0.5vw;
+    margin-top: 1.5vh;
+    margin-left: 0.7vw;
+  }
+  .freecard-heading > p {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    background: #191b20;
+  }
+  .freecard-heading > img {
+    background: #191b20;
+  }
+  .freecard-referell {
+    font-weight: 500;
+    font-size: 16px;
+    color: #808191;
+    margin-top: 7vh;
+    margin-left: 1vw;
+    width: fit-content;
+    background: #191b20;
+
+  }
+  .freecard-links-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #242731;
+    padding: 0.6rem 0.7rem;
+    border-radius: 11px;
+    margin-top: 2.5vh;
+  }
+  .freecard-links-section > p {
+    color: white;
+    background: #242731;
+  }
+  .freecard-links-section > img {
+    background: #242731;
+  }
+  .freecard-links-section > img:hover {
+    opacity: 0.8;
+  }
+}

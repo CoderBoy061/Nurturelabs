@@ -1,0 +1,105 @@
+@media screen and (min-width: 900px) {
+  .mid-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh 2vw;
+    margin-top: 1vh;
+  }
+  .mid-section-header > p {
+    color: white;
+    border-bottom: 2px solid #3772ff;
+  }
+  .main-mid-section {
+    width: 56vw;
+    border-right: 2.5px solid #242731;
+  }
+  .tutorial-section > img {
+    width: 52vw;
+    margin-left: 2vw;
+    margin-top: 0.3vh;
+  }
+  .rewards-details-para {
+    color: white;
+    margin-top: 3vh;
+    display: block;
+    background-color: #191B20;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .rewards-details-para2 {
+    color: white;
+    display: block;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 48px;
+    margin-top: 1vh;
+    letter-spacing: -1px;
+    background-color: #191B20;
+  }
+  .reward-details-section {
+    background: #191B20;
+    height: 140.69px;
+    width: 47vw;
+    max-width: 50vw;
+    margin-left: 2vw;
+    border-radius: 11px;
+    padding: 1vh 2vw;
+  }
+  .rewards-btns {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    background-color: #191B20;
+    margin-top: 1.2vh;
+  }
+  .rewards-btns > p {
+    font-size: 0.7rem;
+    padding: 0.2em 0.6em;
+    background: #353945;
+    border-radius: 11px;
+    color: white;
+  }
+  .rewards-btns>p:hover{
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .action-btn{
+    position: absolute;
+    margin-left: 85vh;
+    background: #353945;
+    display: block;
+   border-radius: 11px;
+  }
+  .action-btn:hover{
+    opacity: 0.8;
+  }
+  .reward-section{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: -0.5vh;
+  }
+  .free-card-section{
+    display: flex;
+    align-items: center;
+  }
+  .tabs{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    margin-left: 2vw;
+    margin-top: 1.5vh;
+  }
+  .first-tab{
+    color: white;
+    border-bottom: 2px solid #3772FF;
+  }
+  .second-tab{
+    color: #808191;
+  }
+  .mid-section-table{
+    margin-top: 1.5vh;
+  }
+}
